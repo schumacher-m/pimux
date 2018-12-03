@@ -67,7 +67,7 @@ set -g status-interval 0
 
 # Status contents
 set -g status-left ' π '
-set -g status-right '|#(whoami)@#H #S:#I.#P '
+set -g status-right '| #(whoami)@#H #S:#I.#P '
 # Message
 set -g message-bg $BACKGROUND
 set -g message-fg $HIGHLIGHT
